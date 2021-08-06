@@ -8,8 +8,18 @@ Rabbitmq
     docker pull rabbitmq
 
     # running
-    docker run -d --hostname my-rabbit --name my-rabbit rabbitmq
+    docker run -d --hostname myrabbit --name myrabbit rabbitmq
 
+    # if need monitoring
+    docker run -it -d --name myrabbit -p 5672:5672 -p 15672:15672 rabbitmq:3-management
+
+    # before, to do change credential for admim user
+
+    # for monitor logs, myrabbit is container name
+    docker logs -f myrabbit
+
+    # for access container and config with (rabbitmqctl)
+    docker exec -it myrabbit bash 
 
 * acces for web
 ::
@@ -31,7 +41,8 @@ Rabbitmq
     rabbitmqctl set_user_tags <username> administrator
     rabbitmqctl set_permissions -p <vhost> <username> ".*" ".*" ".*"
 
-    # rabbitmqctl add_vhost <name_vhost>
+    # add vhost 
+    rabbitmqctl add_vhost <name_vhost>
 
     # list queues
     rabbitmqctl list_queues
