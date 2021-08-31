@@ -6,6 +6,14 @@ Postgresql
 
     pg_dump -U postgres -h 127.0.0.1 anyDB > /tmp/anyDB.dump
 
+* create database
+
+    sudo su
+    su postgres
+    psql;
+    CREATE ROLE cobertura_api LOGIN PASSWORD 'asdf1234' NOSUPERUSER INHERIT NOCREATEDB NOCREATEROLE NOREPLICATION;^C
+    CREATE DATABASE cobertura_api WITH OWNER = cobertura_api;
+
 
 * change owner all table
 
