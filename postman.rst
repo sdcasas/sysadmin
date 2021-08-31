@@ -1,6 +1,7 @@
+Postman
+=======
 
-
-
+# download
 wget -c https://dl.pstmn.io/download/latest/linux64
 
 # decomprimir

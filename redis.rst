@@ -14,3 +14,15 @@ Redis
 
     # access to container
     docker exec -it my-redis sh
+
+
+* monitor
+
+    # access for telnet
+    telnet localhost 6379
+
+    # view access
+    MONITOR
+
+    # exit
+    QUIT
