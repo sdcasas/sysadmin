@@ -20,3 +20,5 @@ VSCode | Codium
     ctrl + k => z        -> mode zen
     ctrl + k => ctrl + o -> open file
     ctrl + k => ctrl + s -> open shortcuts
+    ctrl + shift + o    -> for acces to file property
+    ctrl + shift + p    -> view settings
