@@ -1,6 +1,15 @@
 VSCode | Codium
 ---------------
 
+
+* Extentions
+
+    # python support
+    https://github.com/Microsoft/vscode-python
+
+    # theme icon
+    https://github.com/PKief/vscode-material-icon-theme
+
 * shortcuts  
 ::
 
