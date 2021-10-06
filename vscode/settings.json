@@ -1,20 +1,22 @@
 {
     "workbench.startupEditor": "newUntitledFile",
     "workbench.colorTheme": "Monokai",
-    
     "workbench.tree.indent": 15,
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.folders.color": "#fdd835",
+    "material-icon-theme.folders.theme": "classic",
+    "python.formatting.provider": "autopep8",
+    "python.linting.lintOnSave": true,
     "python.linting.enabled": true,
-    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Enabled": false,
     "python.linting.pycodestyleEnabled": true,
+    "python.linting.pycodestyleArgs": ["--max-line-length=99"],
     "python.linting.pylintEnabled": true,
     "python.linting.pylintArgs": [
         "--load-plugins=pylint_django",
         "--load-plugins=pylint_django.checkers.db_performance",
     ],
-    "editor.minimap.maxColumn": 80,
-    "workbench.iconTheme": "material-icon-theme",
-    "material-icon-theme.folders.color": "#fdd835",
-    "material-icon-theme.folders.theme": "classic",
+    "editor.minimap.maxColumn": 101,
     "editor.rulers": [
         80,
         100,
@@ -34,4 +36,5 @@
         "editor.suggest.insertMode": "replace"
     },
     "editor.multiCursorModifier": "ctrlCmd",
+    "kite.showWelcomeNotificationOnStartup": false,
 }
