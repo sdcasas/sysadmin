@@ -44,6 +44,7 @@ mv -v pyenv-virtualenv ~/.apps/pyenv/plugins
 
 # docker
 wget -qO- https://get.docker.com | sh
+usermod -aG docker scasas
 
 # spotify
 curl -sS https://download.spotify.com/debian/pubkey_0D811D58.gpg | sudo apt-key add - 
