@@ -17,3 +17,6 @@ GIT
     git config --global credential.helper 'cache --timeout=600'
 
 
+* delete branch remote
+
+    git push origin --delete 
