@@ -45,6 +45,8 @@ mv -v pyenv-virtualenv ~/.apps/pyenv/plugins
 # docker
 wget -qO- https://get.docker.com | sh
 usermod -aG docker scasas
+# docker-compose
+curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 
 # spotify
 curl -sS https://download.spotify.com/debian/pubkey_0D811D58.gpg | sudo apt-key add - 
