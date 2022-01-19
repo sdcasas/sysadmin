@@ -32,7 +32,7 @@ Imagen
     docker rmi nombre-imagen:tag-imagen
 
 
-Contendedores
+Contenedores
 
 .. code :: bash
 
