@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=PyCharm
+GenericName=Pycharm
+Exec=/home/scasas/.apps/pycharm/bin/pycharm.sh
+Terminal=false
+Icon=/home/scasas/.apps/pycharm/bin/pycharm.svg
+Type=Application
+Categories=/home/scasas/.apps/pycharm/bin/pycharm.sh
+Comment=Pycharm IDE for Python
