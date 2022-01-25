@@ -6,10 +6,10 @@ shortcuts
 
 * shift + shift         --> Search
 * alt + F12             --> open shell
+* Alt + 1               --> show/hide file explorer project  
 * ctrl + shift + n      --> go to file
 * ctrl + e              --> recent files
 * ctrl + f4             --> close file (tab acvive)
-
 
 # run and debuging
 * F8                    --> run next line
