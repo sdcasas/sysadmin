@@ -17,3 +17,5 @@ MySQL
 
     show DATABASES;
     
+    # permition all 
+    GRANT ALL PRIVILEGES ON *.* TO 'nombre_usuario'@'localhost';
