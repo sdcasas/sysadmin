@@ -23,10 +23,16 @@ Postgresql
 
 * commands
 
-    \l => listar las db
-    \dt => listar las tablas
-    \dx => listar extensiones de una db
-    \c DATABASE => conectar a una db
+    \l              => listar las db
+    \du             => listar los usuarios
+    \dt             => listar las tablas
+    \dx             => listar extensiones de una db
+    \c DATABASE     => conectar a una db
 
     # dump to csv
     \COPY NAMETABLE to /tmp/namefile.csv CSV HEADER
+
+    # print version
+    SHOW server_version;
+    # OR
+    SELECT version();
