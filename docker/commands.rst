@@ -69,6 +69,10 @@ Contenedores
     # ver estadisticas de uso del contenedor: uso de CPU, memoria, disco, etc
     docker stats
 
+    # copiar archivo desde o hacia el contenedor
+    docker cp nombreDelContenedor:/tmp/archivo /ruta/destino/nombreArchivo
+    docker cp /ruta/origen/nombreArchivo nombreDelContenedor:/tmp/destino 
+
 
 Volumen
 
