@@ -20,6 +20,9 @@ MySQL
 
     # connect to db
     use NameDB;
+
+    # list user
+    select user from mysql.user;
     
     # permition all 
     GRANT ALL PRIVILEGES ON *.* TO 'nombre_usuario'@'localhost';
