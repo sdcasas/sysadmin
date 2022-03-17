@@ -15,7 +15,12 @@ MySQL
 
 * commands
 
+    # list all DATABASES
     show DATABASES;
+
+    # connect to db
+    use NameDB;
     
     # permition all 
     GRANT ALL PRIVILEGES ON *.* TO 'nombre_usuario'@'localhost';
+    GRANT ALL PRIVILEGES ON *.* TO 'nombre_usuario'@'%';
