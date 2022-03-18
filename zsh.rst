@@ -17,3 +17,8 @@ export PYENV_VIRTUALENV_DISABLE_PROMPT=
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 #eval "$(pipenv --completion)"
+
+
+# alias
+alias topproc='ps aux --width 30 --sort -rss | head'
+alias dockerstopall='docker stop $(docker ps -q)'
