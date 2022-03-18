@@ -7,13 +7,16 @@ dpkg -i deb-multimedia-keyring_2016.8.1_all.deb
 
 
 # Developer
-apt install gcc build-essential libssl-dev libedit-dev -y
+apt install gcc make build-essential libssl-dev libedit-dev -y
 apt install guake terminator zsh -y
-apt install git python3-dev python-pip python3-venv virtualenvwrapper -y 
+apt install git python3-dev python3-pip python3-venv python3-setuptools virtualenvwrapper -y 
 apt install tmux sqlitebrowser meld vim curl -y
 
-# tools compile and process
+# tools compile and process (pyenv)
 apt install libffi-dev default-libmysqlclient-dev
+apt install libssl-dev libbz2-dev libreadline-dev bzip2-devel
+apt install libsqlite3-dev libffi-dev
+
 
 # developer db postgres
 #apt install postgresql-9.6 pgadmin3 postgresql-server-dev-9.6
