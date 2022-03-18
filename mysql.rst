@@ -15,6 +15,10 @@ MySQL
 
 * commands
 
+    # restore db
+    use nombreDB;
+    source /tmp/dump.sql;
+
     # list all DATABASES
     show DATABASES;
 
