@@ -26,3 +26,9 @@ GIT
 
     eval "$(ssh-agent -s)
     ssh-add ~/.ssh/id_sdcasas  
+
+* create local branch from remote branch
+
+    git fetch <remote> <remote_branch>:<local_branch>
+    git fetch origin release_ugf2:release_ugf2
+    git checkout release_ugf2
