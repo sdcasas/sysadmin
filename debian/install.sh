@@ -49,7 +49,8 @@ mv -v pyenv-virtualenv ~/.apps/pyenv/plugins
 wget -qO- https://get.docker.com | sh
 usermod -aG docker scasas
 # docker-compose
-curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
 
 # spotify
 curl -sS https://download.spotify.com/debian/pubkey_0D811D58.gpg | sudo apt-key add - 
@@ -107,3 +108,9 @@ apt autoremove -f
 # sudo apt full-upgrade
 # sudo apt --purge autoremove
 # hostnamectl
+
+# postman
+wget -c https://dl.pstmn.io/download/latest/linux64 -O postman.tar.gz
+
+# font size
+gsettings set org.gnome.desktop.interface text-scaling-factor
