@@ -32,3 +32,16 @@ GIT
     git fetch <remote> <remote_branch>:<local_branch>
     git fetch origin release_ugf2:release_ugf2
     git checkout release_ugf2
+
+* alternative a git stash
+
+    # initial from initial-branch
+    git add file1 file2 fileN
+    git commit -m "DELETE COMMIT"
+    # change to branch other-branch
+    git checkout other-branch
+
+    # return branch initial
+    git checkout initial-branch
+    # delete last commit
+    git reset HEAD~
