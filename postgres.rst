@@ -36,3 +36,6 @@ Postgresql
     SHOW server_version;
     # OR
     SELECT version();
+
+    # CHANGE PASSWORD
+    ALTER USER <user> WITH PASSWORD '<password>';
