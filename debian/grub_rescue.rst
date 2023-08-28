@@ -1,6 +1,7 @@
 Grub Rescue
 ============
 
+reference: [youtube](https://www.youtube.com/watch?v=iiNmkMmLF3U&ab_channel=ManuelCarmona)
 
 
 * Boot System
