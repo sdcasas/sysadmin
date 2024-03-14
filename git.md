@@ -8,16 +8,16 @@ GIT
 
 * do not request user and password 
 
-```bash
-    # git save the user and password 
-    git config --global credential.helper store
+    ```bash
+        # git save the user and password 
+        git config --global credential.helper store
 
-    # optional: save credentials in cache 
-    git config --global credential.helper cache
+        # optional: save credentials in cache 
+        git config --global credential.helper cache
 
-    # optional: you can save for a limeted time
-    git config --global credential.helper 'cache --timeout=600'
-```
+        # optional: you can save for a limeted time
+        git config --global credential.helper 'cache --timeout=600'
+    ```
 
 * delete branch remote
 
