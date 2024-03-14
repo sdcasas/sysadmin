@@ -45,11 +45,13 @@ GIT
         # initial from initial-branch
         git add file1 file2 fileN
         git commit -m "DELETE COMMIT"
+
         # change to branch other-branch
         git checkout other-branch
 
         # return branch initial
         git checkout initial-branch
+        
         # delete last commit
         git reset HEAD~
     ```
