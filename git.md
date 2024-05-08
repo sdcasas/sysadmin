@@ -55,3 +55,9 @@ GIT
         # delete last commit
         git reset HEAD~
     ```
+
+* add file to last commit
+    ```bash
+        git add the_left_out_file
+        git commit --amend --no-edit
+    ```
