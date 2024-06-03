@@ -61,3 +61,10 @@ GIT
         git add the_left_out_file
         git commit --amend --no-edit
     ```
+
+
+* Error 
+    ```bash
+        # git fatal: Not possible to fast-forward, aborting.
+        git pull --no-ff origin master
+    ```
