@@ -1,22 +1,33 @@
 GIT
 ===
 
-* for not monitor change in permision
+* initial config
     ```bash
-        git config core.filemode false
+    git config --global user.name "Sergio Casas"
+    git config --global user.email sdcasas@gmail.com
+
+    # for windows, not use user and password
+    git config --global user.password ghp_4gBLABLABLABLA_Obtener_toker_desde_github
     ```
+
 
 * do not request user and password 
 
     ```bash
-        # git save the user and password 
-        git config --global credential.helper store
+    # git save the user and password 
+    git config --global credential.helper store
 
-        # optional: save credentials in cache 
-        git config --global credential.helper cache
+    # optional: save credentials in cache 
+    git config --global credential.helper cache
 
-        # optional: you can save for a limeted time
-        git config --global credential.helper 'cache --timeout=600'
+    # optional: you can save for a limeted time
+    git config --global credential.helper 'cache --timeout=600'
+    ```
+
+
+* for not monitor change in permision
+    ```bash
+        git config core.filemode false
     ```
 
 * delete branch remote
