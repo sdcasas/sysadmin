@@ -7,6 +7,7 @@ GIT
     git config --global user.email sdcasas@gmail.com
 
     # for windows, not use user and password
+    # for generate token https://github.com/settings/tokens
     git config --global user.password ghp_4gBLABLABLABLA_Obtener_toker_desde_github
     ```
 
