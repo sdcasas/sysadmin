@@ -17,4 +17,7 @@ networing
 
     # Verify DNS values
     networksetup -getdnsservers Wi-Fi
+
+    # change hostname
+    sudo scutil --set HostName valhalla
 ```
